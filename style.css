@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color:#222;
+}
+
+/* Blue welcome section */
+header {
+    background-color: #0066ff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 3px 10px #cccccc;
+}
+
+nav a {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Home */
+.home {
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.home-text h2 {
+    color: #0066ff;
+    font-size: 45px;
+}
+
+/* Button */
+.button,
+.order button {
+    background-color: #0066ff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Grey 3D object */
+.shape {
+    width: 200px;
+    height: 200px;
+    background-color: #777777;
+    border-radius: 30px;
+
+    box-shadow:
+        20px 20px 30px #aaaaaa,
+        inset -15px -15px 20px #555555,
+        inset 15px 15px 20px #dddddd;
+
+    transition: 1s;
+}
+
+/* About Us */
+.about {
+    background-color: #0066ff;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+/* Order */
+.order {
+    background-color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.order h2 {
+    color: #0066ff;
+}
+
+/* Footer */
+footer {
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
